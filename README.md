@@ -38,4 +38,6 @@ In order to set the words that you want to monitor put your values in place of '
 2. The 'words' monitoring capability could be improved by adding a response capability. For example to delete or ban a member under certain conditions and send the results to Splunk. The predefined words could be imported from a file and not hardcoded in the script. 
 3. Another functionality could be added to the Telegram bot. For example an integration with Virus Total in order to check any links or files sent to the Telegram group. In this case an automated response would also benefit the Security Team. 
 
+## Comment for QC
+I had no prior experience in working with Splunk and Python before this task and it was easier for me to use the aiogram library, also ChatGPT helped me to generate some parts of the script. Still, I am eager to work as a SOC Engineer, learn python and everything related to automation of detection & response. 
 
