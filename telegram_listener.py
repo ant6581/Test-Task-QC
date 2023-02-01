@@ -13,7 +13,7 @@ GROUP_ID = os.environ.get('GROUP_ID', '-1001628491781')
 SPLUNK_HEC_URL = 'http://10.10.1.75:8088/services/collector'
  
 # Enter the Splunk HEC token
-SPLUNK_HEC_TOKEN = '1949df5e-e7bf-412d-a4b2-bb81c9cac75b'
+SPLUNK_HEC_TOKEN = 'b89703d1-fd92-4ca1-9925-5f9b09df9e65'
  
 # Configure logging
 logging.basicConfig(level=logging.INFO)
