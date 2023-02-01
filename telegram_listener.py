@@ -6,14 +6,14 @@ import requests
 import json
  
  
-API_TOKEN = os.environ.get('BOT_TOKEN', '5809652131:AAFK5tQeG9Ww1OYi-_TyFXhyUOI8L1m_-s0')
-GROUP_ID = os.environ.get('GROUP_ID', '-1001628491781')
+API_TOKEN = os.environ.get('BOT_TOKEN', 'BOT_API_HERE')
+GROUP_ID = os.environ.get('GROUP_ID', '-100123456789')
  
 # Enter the URL for your Splunk HEC endpoint
-SPLUNK_HEC_URL = 'http://10.10.1.75:8088/services/collector'
+SPLUNK_HEC_URL = 'http://splunk.com:8088/services/collector'
  
 # Enter the Splunk HEC token
-SPLUNK_HEC_TOKEN = 'b89703d1-fd92-4ca1-9925-5f9b09df9e65'
+SPLUNK_HEC_TOKEN = 'YOUR_HEC_TOKEN_HERE'
  
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -43,7 +43,7 @@ async def check_administrators(group_id):
         message = "New administrator(s) have been added to the group: \n"
         for admin in new_admins:
             message += f"{admin.full_name} ({admin.username})\n"
-        await bot.send_message(GROUP_ID, message)
+      #  await bot.send_message(GROUP_ID, message) 
       # Send the update to Splunk
         payload = json.dumps({
             "sourcetype": "telegram_group",
@@ -66,8 +66,8 @@ async def check_administrators(group_id):
         message = "An administrator(s) have been removed from the group: \n"
         for admin in removed_admins:
             message += f"{admin.full_name} ({admin.username})\n"
-        await bot.send_message(GROUP_ID, message)
-      # Send the update to Splunk
+      #  await bot.send_message(GROUP_ID, message)
+      
       # Send the update to Splunk
         payload = json.dumps({
             "sourcetype": "telegram_group",
