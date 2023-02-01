@@ -2,8 +2,8 @@
 ![Bot](https://www.techopedia.com/images/uploads/6e13a6b3-28b6-454a-bef3-92d3d5529007.jpeg)
 
 This Telegram Bot listens to your group chat and monitors the following events: 
-- An Administrator is added or removed to the group chat
-- Some predefined words are mentioned in the chat
+- When an Administrator is added or removed from the group chat
+- When some predefined words are mentioned in the chat
 
 These events are being sent to your Splunk instance for further analysis. 
 
