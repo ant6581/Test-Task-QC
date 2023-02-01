@@ -1,5 +1,5 @@
 # Telegram Listener
-![Bot]([https://www.techopedia.com/images/uploads/6e13a6b3-28b6-454a-bef3-92d3d5529007.jpeg](https://flowxo.com/wp-content/uploads/2021/03/Telegram-Logo-512x512.png)
+![Bot](https://publicapi.dev/images/logos/core.telegram.org.png)
 
 This Telegram Bot listens to your group chat and monitors the following events: 
 - When an Administrator is added or removed from the group chat
