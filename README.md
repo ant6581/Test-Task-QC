@@ -30,7 +30,7 @@ In order to set the words that you want to monitor put your values in place of '
 ```
 
 ## Use Cases
-1. This Telegram Bot can be used in cases you want to monitor changes in the priveleged accounts of your Telegram Group. In case of some actor gains admin access and the telegram group gets compromised this approach will help to reduce the mean time to detect and respond to this kind of malicious activity. 
+1. This Telegram Bot can be used in cases you want to monitor changes in the privileged accounts of your Telegram Group. In case of some actor gains admin access and the telegram group gets compromised this approach will help to reduce the mean time to detect and respond to this kind of malicious activity. 
 2. This Telegram Bot can monitor for certain words in your Telegram Group. This can be interesting to Corporate Security Teams in order to monitor for any conflicts or violations of the corporate policies between the group members. 
 
 ## What to improve in the future releases
